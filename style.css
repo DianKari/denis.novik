@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 946px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+        color: #828282;
+        border-bottom: 1px solid  ;
+        padding-bottom: 30px;
+        padding-top: 33px;
+
+    a {
+
+        font-size: 18px;
+        line-height: 22.28px;
+        color: #828282;
+        text-decoration: none;
+        transition: 0.4s;
+
+        &:hover {
+         color: black 
+          
+        }
+
+    }
+
+
+}
+
+
+.denis {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 40px ;
+
+color: black;
+
+}
+
+.name {
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.translation {
+    rotate: -90deg;
+    background-color: none;
+    border: 0;
+    font-weight: 700;
+   background-color: rgba(255, 255, 255, 0);
+}
+
+.denis-photo {
+    margin-top: 30px;
+}
+
+.about-me {
+    max-width: 1300px;
+    padding: 50px;
+    background-color: #F6F6F6;
+    color: black;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.portfolio-text {
+    max-width: 400px;
+   font-weight: 700;
+   font-size: x-large;
+    size: 18px;
+    line-height: 1.3;
+}
+
+.skills {
+   text-align: center;
+   margin: auto;
+   padding-top: 40px;
+   min-width: 850px;
+}
+
+.img-skills {
+    display: flex;
+   text-align: center;
+   justify-content: space-between;
+ 
+}
+
+.portfolio {
+    padding-top: 70px;
+    text-align: center;
+    background-color: #f6f6f66f;
+    margin: 20px 0;
+} 
+
+.portf-text {
+    font-weight: 700;
+    font-size: xx-large;
+}
+a {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.a-shop {
+    display: block;
+    padding-top: 45px;
+    padding-bottom: 80px;
+}
+
+.footer {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.send-message {
+    /* display: block; */
+    background-color: black;
+    color: white;
+    padding: 25px 50px;
+    /* height: 70px; */
+    border-radius: 40px;
+font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home {
+    color: black;
+    font-weight: 700;
+}
